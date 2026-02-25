@@ -124,7 +124,7 @@ def test_format_list_contains_group_headers(builder):
 # by_group tests
 # ------------------------------------------------------------------
 
-def test_by_group_organises_items(builder):
+def test_by_group_organizes_items(builder):
     plan = _simple_week_plan()
     shopping_list = builder.build(plan)
     grouped = shopping_list.by_group()
