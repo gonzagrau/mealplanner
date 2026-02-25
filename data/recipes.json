@@ -1,151 +1,664 @@
 [
   {
-    "id": "ensalada_pollo",
-    "nombre": "Ensalada de Pollo con Aguacate",
+    "id": "rapiditas_con_verduras_huevo",
+    "nombre": "Rapiditas integrales con verduras, huevo y palta",
+    "ingredientes": [
+      {"item": "pan_integral", "cantidad": 2, "unidad": "unidad"},
+      {"item": "huevo", "cantidad": 2, "unidad": "unidad"},
+      {"item": "palta", "cantidad": 0.5, "unidad": "unidad"},
+      {"item": "lechuga", "cantidad": 1, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"}
+    ],
+    "tiempo_prep": 15,
+    "url": "https://ejemplo.com/rapiditas-verduras-huevo"
+  },
+  {
+    "id": "carne_al_horno_ensalada",
+    "nombre": "Carne al horno con ensalada de zanahoria, tomate y choclo",
+    "ingredientes": [
+      {"item": "nalga", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "zanahoria", "cantidad": 1, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
+      {"item": "choclo", "cantidad": 3, "unidad": "cucharada_sopera"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 40,
+    "url": "https://ejemplo.com/carne-horno-ensalada"
+  },
+  {
+    "id": "arroz_wok_carne",
+    "nombre": "Arroz integral con wok de vegetales y carne",
+    "ingredientes": [
+      {"item": "arroz_integral", "cantidad": 1, "unidad": "taza"},
+      {"item": "bife", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "pimiento", "cantidad": 1, "unidad": "unidad"},
+      {"item": "cebolla", "cantidad": 1, "unidad": "unidad"},
+      {"item": "calabacin", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 30,
+    "url": "https://ejemplo.com/arroz-wok-carne"
+  },
+  {
+    "id": "milanesa_pescado_ensalada_papa",
+    "nombre": "Milanesa de pescado al horno con ensalada de papa, remolacha y arvejas",
+    "ingredientes": [
+      {"item": "merluza", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "papa", "cantidad": 1, "unidad": "unidad"},
+      {"item": "remolacha", "cantidad": 1, "unidad": "taza"},
+      {"item": "arvejas", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 35,
+    "url": "https://ejemplo.com/milanesa-pescado"
+  },
+  {
+    "id": "tarta_verdura_atun",
+    "nombre": "Tarta de verdura y atún con ensalada",
+    "ingredientes": [
+      {"item": "atun_lata", "cantidad": 1, "unidad": "taza"},
+      {"item": "espinaca", "cantidad": 2, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
+      {"item": "rucula", "cantidad": 1, "unidad": "taza"},
+      {"item": "pepino", "cantidad": 1, "unidad": "taza"},
+      {"item": "huevo", "cantidad": 1, "unidad": "unidad"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 40,
+    "url": "https://ejemplo.com/tarta-verdura-atun"
+  },
+  {
+    "id": "fideos_pollo_ensalada",
+    "nombre": "Ensalada con fideos al dente y pollo",
+    "ingredientes": [
+      {"item": "fideos_integrales", "cantidad": 0.5, "unidad": "taza"},
+      {"item": "pechuga_pollo", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "lechuga", "cantidad": 2, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 25,
+    "url": "https://ejemplo.com/fideos-pollo"
+  },
+  {
+    "id": "hamburguesas_lentejas_vegetales",
+    "nombre": "Hamburguesas de lentejas con vegetales al horno",
+    "ingredientes": [
+      {"item": "lentejas", "cantidad": 1, "unidad": "taza"},
+      {"item": "calabacin", "cantidad": 1, "unidad": "taza"},
+      {"item": "berenjena", "cantidad": 1, "unidad": "taza"},
+      {"item": "cebolla", "cantidad": 1, "unidad": "unidad"},
+      {"item": "pimiento", "cantidad": 1, "unidad": "unidad"},
+      {"item": "zanahoria", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 45,
+    "url": "https://ejemplo.com/hamburguesas-lentejas"
+  },
+  {
+    "id": "milanesa_cerdo_espinaca",
+    "nombre": "Milanesas de cerdo al horno con espinaca a la crema",
+    "ingredientes": [
+      {"item": "cerdo_lomo", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "espinaca", "cantidad": 2, "unidad": "taza"},
+      {"item": "leche_descremada", "cantidad": 0.5, "unidad": "vaso"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 35,
+    "url": "https://ejemplo.com/milanesa-cerdo-espinaca"
+  },
+  {
+    "id": "ensalada_atun_aceitunas",
+    "nombre": "Ensalada de vegetales con aceitunas y atún",
+    "ingredientes": [
+      {"item": "atun_lata", "cantidad": 1, "unidad": "taza"},
+      {"item": "lechuga", "cantidad": 2, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceitunas", "cantidad": 4, "unidad": "unidad"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 10,
+    "url": "https://ejemplo.com/ensalada-atun-aceitunas"
+  },
+  {
+    "id": "ravioles_salsa_rosa",
+    "nombre": "Ravioles con salsa rosa y queso",
+    "ingredientes": [
+      {"item": "ravioles", "cantidad": 20, "unidad": "unidad"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
+      {"item": "queso_descremado", "cantidad": 1, "unidad": "porcion"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 25,
+    "url": "https://ejemplo.com/ravioles-salsa-rosa"
+  },
+  {
+    "id": "pechuga_grillada_calabaza",
+    "nombre": "Pechuga de pollo grillada con calabaza al horno",
+    "ingredientes": [
+      {"item": "pechuga_pollo", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "calabaza", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 30,
+    "url": "https://ejemplo.com/pechuga-calabaza"
+  },
+  {
+    "id": "ensalada_arroz_huevo",
+    "nombre": "Ensalada completa con arroz integral, huevo y almendras",
+    "ingredientes": [
+      {"item": "arroz_integral", "cantidad": 1, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
+      {"item": "cebolla", "cantidad": 1, "unidad": "unidad"},
+      {"item": "chauchas", "cantidad": 1, "unidad": "taza"},
+      {"item": "huevo", "cantidad": 2, "unidad": "unidad"},
+      {"item": "almendras", "cantidad": 1, "unidad": "puñado"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 25,
+    "url": "https://ejemplo.com/ensalada-arroz-huevo"
+  },
+  {
+    "id": "hamburguesas_carne_jardinera",
+    "nombre": "Hamburguesas caseras de carne con jardinera",
+    "ingredientes": [
+      {"item": "carne_molida", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "papa", "cantidad": 1, "unidad": "unidad"},
+      {"item": "zanahoria", "cantidad": 1, "unidad": "taza"},
+      {"item": "arvejas", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 30,
+    "url": "https://ejemplo.com/hamburguesas-jardinera"
+  },
+  {
+    "id": "milanesa_berenjena_napolitana",
+    "nombre": "Milanesa de berenjena a la napolitana con papa y calabaza",
+    "ingredientes": [
+      {"item": "berenjena", "cantidad": 1, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
+      {"item": "queso_descremado", "cantidad": 1, "unidad": "porcion"},
+      {"item": "papa", "cantidad": 1, "unidad": "unidad"},
+      {"item": "calabaza", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 40,
+    "url": "https://ejemplo.com/milanesa-berenjena"
+  },
+  {
+    "id": "pollo_ensalada_fresca",
+    "nombre": "Ensalada fresca con pollo",
     "ingredientes": [
       {"item": "pechuga_pollo", "cantidad": 1, "unidad": "porcion_mano"},
       {"item": "lechuga", "cantidad": 2, "unidad": "taza"},
       {"item": "tomate", "cantidad": 1, "unidad": "taza"},
-      {"item": "aguacate", "cantidad": 0.5, "unidad": "unidad"},
-      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
+      {"item": "pepino", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
     ],
     "tiempo_prep": 15,
-    "url": "https://ejemplo.com/ensalada-pollo"
+    "url": "https://ejemplo.com/pollo-ensalada"
   },
   {
-    "id": "arroz_salmon",
-    "nombre": "Arroz Integral con Salmón y Brócoli",
+    "id": "hamburguesas_yamani_lentejas",
+    "nombre": "Hamburguesas de yamaní y lentejas",
     "ingredientes": [
-      {"item": "salmon", "cantidad": 1, "unidad": "porcion_mano"},
-      {"item": "arroz_integral", "cantidad": 0.5, "unidad": "taza"},
-      {"item": "brocoli", "cantidad": 1, "unidad": "taza"},
-      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
+      {"item": "lentejas", "cantidad": 1, "unidad": "taza"},
+      {"item": "arroz_integral", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 2, "unidad": "cucharada_postre"},
+      {"item": "cebolla", "cantidad": 1, "unidad": "unidad"}
     ],
-    "tiempo_prep": 25,
-    "url": "https://ejemplo.com/arroz-salmon"
+    "tiempo_prep": 50,
+    "url": "https://ejemplo.com/hamburguesas-yamani-lentejas"
   },
   {
-    "id": "tortilla_espanola",
-    "nombre": "Tortilla Española",
+    "id": "hamburguesas_calabaza_garbanzos",
+    "nombre": "Hamburguesas de calabaza y garbanzos",
     "ingredientes": [
-      {"item": "huevo", "cantidad": 2, "unidad": "unidad"},
-      {"item": "papa", "cantidad": 1, "unidad": "unidad"},
-      {"item": "aceite_oliva", "cantidad": 2, "unidad": "cucharada"},
-      {"item": "pimiento", "cantidad": 0.5, "unidad": "unidad"}
-    ],
-    "tiempo_prep": 30,
-    "url": "https://ejemplo.com/tortilla-espanola"
-  },
-  {
-    "id": "sopa_lentejas",
-    "nombre": "Sopa de Lentejas con Verduras",
-    "ingredientes": [
-      {"item": "lentejas", "cantidad": 0.5, "unidad": "taza"},
-      {"item": "zanahoria", "cantidad": 1, "unidad": "taza"},
-      {"item": "espinaca", "cantidad": 1, "unidad": "taza"},
-      {"item": "tomate", "cantidad": 0.5, "unidad": "taza"},
-      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
+      {"item": "garbanzos", "cantidad": 2, "unidad": "taza"},
+      {"item": "calabaza", "cantidad": 2, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
     ],
     "tiempo_prep": 40,
-    "url": "https://ejemplo.com/sopa-lentejas"
+    "url": "https://ejemplo.com/hamburguesas-calabaza-garbanzos"
   },
   {
-    "id": "bowl_quinoa",
-    "nombre": "Bowl de Quinoa con Garbanzos",
-    "ingredientes": [
-      {"item": "quinoa", "cantidad": 0.5, "unidad": "taza"},
-      {"item": "garbanzos", "cantidad": 0.5, "unidad": "taza"},
-      {"item": "espinaca", "cantidad": 2, "unidad": "taza"},
-      {"item": "tomate", "cantidad": 0.5, "unidad": "taza"},
-      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
-    ],
-    "tiempo_prep": 20,
-    "url": "https://ejemplo.com/bowl-quinoa"
-  },
-  {
-    "id": "pollo_asado_batata",
-    "nombre": "Pollo Asado con Batata",
-    "ingredientes": [
-      {"item": "pechuga_pollo", "cantidad": 1, "unidad": "porcion_mano"},
-      {"item": "batata", "cantidad": 1, "unidad": "unidad"},
-      {"item": "brocoli", "cantidad": 1, "unidad": "taza"},
-      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
-    ],
-    "tiempo_prep": 35,
-    "url": "https://ejemplo.com/pollo-batata"
-  },
-  {
-    "id": "desayuno_avena",
-    "nombre": "Porridge de Avena con Frutas",
+    "id": "desayuno_avena_fruta",
+    "nombre": "Porridge de avena con frutas y leche",
     "ingredientes": [
       {"item": "avena", "cantidad": 0.5, "unidad": "taza"},
+      {"item": "leche_descremada", "cantidad": 0.5, "unidad": "vaso"},
       {"item": "platano", "cantidad": 1, "unidad": "unidad"},
-      {"item": "fresas", "cantidad": 0.5, "unidad": "taza"},
-      {"item": "leche", "cantidad": 1, "unidad": "taza"}
+      {"item": "fresas", "cantidad": 0.5, "unidad": "taza"}
     ],
     "tiempo_prep": 10,
     "url": "https://ejemplo.com/porridge-avena"
   },
   {
-    "id": "carne_molida_calabacin",
-    "nombre": "Carne Molida con Calabacín",
+    "id": "yogur_cereal_fruta",
+    "nombre": "Yogur con cereal sin azúcar y fruta fresca",
     "ingredientes": [
-      {"item": "carne_molida", "cantidad": 1, "unidad": "porcion_mano"},
-      {"item": "calabacin", "cantidad": 1, "unidad": "taza"},
-      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
-      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
+      {"item": "yogur_descremado", "cantidad": 1, "unidad": "vaso"},
+      {"item": "cereal_sin_azucar", "cantidad": 0.25, "unidad": "taza"},
+      {"item": "manzana", "cantidad": 1, "unidad": "unidad"}
     ],
-    "tiempo_prep": 25,
-    "url": "https://ejemplo.com/carne-calabacin"
+    "tiempo_prep": 5,
+    "url": "https://ejemplo.com/yogur-cereal-fruta"
   },
   {
-    "id": "ensalada_atun",
-    "nombre": "Ensalada de Atún",
+    "id": "tostada_queso_tomate",
+    "nombre": "Tostada integral con queso y tomate",
     "ingredientes": [
-      {"item": "atun_lata", "cantidad": 1, "unidad": "taza"},
-      {"item": "lechuga", "cantidad": 2, "unidad": "taza"},
-      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
-      {"item": "aguacate", "cantidad": 0.5, "unidad": "unidad"},
-      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
+      {"item": "pan_integral", "cantidad": 1, "unidad": "rebanada"},
+      {"item": "queso_descremado", "cantidad": 1, "unidad": "porcion"},
+      {"item": "tomate", "cantidad": 0.5, "unidad": "taza"},
+      {"item": "leche_descremada", "cantidad": 0.5, "unidad": "vaso"}
+    ],
+    "tiempo_prep": 5,
+    "url": "https://ejemplo.com/tostada-queso-tomate"
+  },
+  {
+    "id": "panqueque_avena",
+    "nombre": "Panqueque de avena, banana y huevo",
+    "ingredientes": [
+      {"item": "avena", "cantidad": 2, "unidad": "cucharada_sopera"},
+      {"item": "leche_descremada", "cantidad": 0.5, "unidad": "vaso"},
+      {"item": "platano", "cantidad": 1, "unidad": "unidad"},
+      {"item": "huevo", "cantidad": 1, "unidad": "unidad"}
     ],
     "tiempo_prep": 10,
-    "url": "https://ejemplo.com/ensalada-atun"
+    "url": "https://ejemplo.com/panqueque-avena"
   },
   {
-    "id": "tofu_salteado",
-    "nombre": "Tofu Salteado con Verduras",
+    "id": "licuado_frutas",
+    "nombre": "Licuado de frutas con leche o yogur y tostada con queso",
     "ingredientes": [
-      {"item": "tofu", "cantidad": 1, "unidad": "porcion_mano"},
-      {"item": "brocoli", "cantidad": 1, "unidad": "taza"},
-      {"item": "pimiento", "cantidad": 1, "unidad": "unidad"},
-      {"item": "zanahoria", "cantidad": 0.5, "unidad": "taza"},
-      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
-    ],
-    "tiempo_prep": 20,
-    "url": "https://ejemplo.com/tofu-salteado"
-  },
-  {
-    "id": "yogur_frutas",
-    "nombre": "Yogur con Frutas y Nueces",
-    "ingredientes": [
-      {"item": "yogur_natural", "cantidad": 1, "unidad": "taza"},
+      {"item": "platano", "cantidad": 1, "unidad": "unidad"},
       {"item": "fresas", "cantidad": 0.5, "unidad": "taza"},
-      {"item": "manzana", "cantidad": 0.5, "unidad": "unidad"},
+      {"item": "yogur_descremado", "cantidad": 1, "unidad": "vaso"},
+      {"item": "pan_integral", "cantidad": 1, "unidad": "rebanada"},
+      {"item": "queso_descremado", "cantidad": 1, "unidad": "porcion"}
+    ],
+    "tiempo_prep": 10,
+    "url": "https://ejemplo.com/licuado-frutas"
+  },
+  {
+    "id": "yogur_frutos_secos",
+    "nombre": "Yogur con fruta y frutos secos",
+    "ingredientes": [
+      {"item": "yogur_descremado", "cantidad": 1, "unidad": "vaso"},
+      {"item": "manzana", "cantidad": 1, "unidad": "unidad"},
       {"item": "nueces", "cantidad": 1, "unidad": "puñado"}
     ],
     "tiempo_prep": 5,
-    "url": "https://ejemplo.com/yogur-frutas"
+    "url": "https://ejemplo.com/yogur-frutos-secos"
   },
   {
-    "id": "muslo_pollo_arroz",
-    "nombre": "Muslo de Pollo con Arroz y Zanahoria",
+    "id": "merienda_post_gym",
+    "nombre": "Merienda post-gym: yogur con avena y huevo",
     "ingredientes": [
-      {"item": "muslo_pollo", "cantidad": 1, "unidad": "porcion_mano"},
-      {"item": "arroz_integral", "cantidad": 0.5, "unidad": "taza"},
-      {"item": "zanahoria", "cantidad": 1, "unidad": "taza"},
-      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
+      {"item": "yogur_descremado", "cantidad": 1, "unidad": "vaso"},
+      {"item": "avena", "cantidad": 2, "unidad": "cucharada_sopera"},
+      {"item": "huevo", "cantidad": 1, "unidad": "unidad"}
+    ],
+    "tiempo_prep": 10,
+    "url": "https://ejemplo.com/merienda-post-gym"
+  },
+  {
+    "id": "trucha_al_horno_batata",
+    "nombre": "Trucha al horno con batata y ensalada de rúcula",
+    "ingredientes": [
+      {"item": "trucha", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "batata", "cantidad": 1, "unidad": "unidad"},
+      {"item": "rucula", "cantidad": 2, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 35,
+    "url": "https://ejemplo.com/trucha-batata"
+  },
+  {
+    "id": "lenguado_a_la_plancha_brocoli",
+    "nombre": "Lenguado a la plancha con brócoli y trigo burgol",
+    "ingredientes": [
+      {"item": "lenguado", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "brocoli", "cantidad": 1, "unidad": "taza"},
+      {"item": "trigo_burgol", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 25,
+    "url": "https://ejemplo.com/lenguado-brocoli-burgol"
+  },
+  {
+    "id": "salmon_quinoa_espinaca",
+    "nombre": "Salmón grillado con quinoa y espinaca salteada",
+    "ingredientes": [
+      {"item": "salmon", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "quinoa", "cantidad": 1, "unidad": "taza"},
+      {"item": "espinaca", "cantidad": 2, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"},
+      {"item": "semillas", "cantidad": 2, "unidad": "cucharadita"}
     ],
     "tiempo_prep": 30,
-    "url": "https://ejemplo.com/muslo-arroz"
+    "url": "https://ejemplo.com/salmon-quinoa-espinaca"
+  },
+  {
+    "id": "peceto_al_horno_calabaza_chauchas",
+    "nombre": "Peceto al horno con calabaza y chauchas",
+    "ingredientes": [
+      {"item": "peceto", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "calabaza", "cantidad": 1, "unidad": "taza"},
+      {"item": "chauchas", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 45,
+    "url": "https://ejemplo.com/peceto-calabaza-chauchas"
+  },
+  {
+    "id": "costilla_cerdo_polenta",
+    "nombre": "Costilla de cerdo desgrasada con polenta y ensalada",
+    "ingredientes": [
+      {"item": "cerdo_costilla", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "polenta", "cantidad": 1, "unidad": "taza"},
+      {"item": "lechuga", "cantidad": 2, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 40,
+    "url": "https://ejemplo.com/costilla-cerdo-polenta"
+  },
+  {
+    "id": "pollo_amaranto_verduras",
+    "nombre": "Pollo sin piel con amaranto y verduras salteadas",
+    "ingredientes": [
+      {"item": "pollo_sin_piel", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "amaranto", "cantidad": 1, "unidad": "taza"},
+      {"item": "calabacin", "cantidad": 1, "unidad": "taza"},
+      {"item": "pimiento", "cantidad": 1, "unidad": "unidad"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 30,
+    "url": "https://ejemplo.com/pollo-amaranto-verduras"
+  },
+  {
+    "id": "lomo_res_papa_ensalada",
+    "nombre": "Lomo de res a la parrilla con papa al horno y ensalada verde",
+    "ingredientes": [
+      {"item": "lomo_res", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "papa", "cantidad": 1, "unidad": "unidad"},
+      {"item": "lechuga", "cantidad": 2, "unidad": "taza"},
+      {"item": "pepino", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 35,
+    "url": "https://ejemplo.com/lomo-papa-ensalada"
+  },
+  {
+    "id": "bife_choclo_zanahoria",
+    "nombre": "Bife a la plancha con choclo y zanahoria glaseada",
+    "ingredientes": [
+      {"item": "bife", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "choclo", "cantidad": 1, "unidad": "unidad"},
+      {"item": "zanahoria", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 25,
+    "url": "https://ejemplo.com/bife-choclo-zanahoria"
+  },
+  {
+    "id": "cazuela_lentejas_verduras",
+    "nombre": "Cazuela de lentejas con zanahoria, calabaza y espinaca",
+    "ingredientes": [
+      {"item": "lentejas", "cantidad": 1, "unidad": "taza"},
+      {"item": "zanahoria", "cantidad": 1, "unidad": "taza"},
+      {"item": "calabaza", "cantidad": 1, "unidad": "taza"},
+      {"item": "espinaca", "cantidad": 2, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 40,
+    "url": "https://ejemplo.com/cazuela-lentejas"
+  },
+  {
+    "id": "garbanzos_salteados_verduras",
+    "nombre": "Garbanzos salteados con berenjena, morrón y cebolla",
+    "ingredientes": [
+      {"item": "garbanzos", "cantidad": 1, "unidad": "taza"},
+      {"item": "berenjena", "cantidad": 1, "unidad": "taza"},
+      {"item": "pimiento", "cantidad": 1, "unidad": "unidad"},
+      {"item": "cebolla", "cantidad": 1, "unidad": "unidad"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 25,
+    "url": "https://ejemplo.com/garbanzos-salteados"
+  },
+  {
+    "id": "omelette_verduras_queso",
+    "nombre": "Omelette de espinaca, tomate y queso descremado",
+    "ingredientes": [
+      {"item": "huevo", "cantidad": 2, "unidad": "unidad"},
+      {"item": "espinaca", "cantidad": 2, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
+      {"item": "queso_descremado", "cantidad": 1, "unidad": "porcion"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 15,
+    "url": "https://ejemplo.com/omelette-verduras"
+  },
+  {
+    "id": "merluza_fideos_ensalada",
+    "nombre": "Merluza al horno con fideos integrales y ensalada fresca",
+    "ingredientes": [
+      {"item": "merluza", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "fideos_integrales", "cantidad": 1, "unidad": "taza"},
+      {"item": "lechuga", "cantidad": 2, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 30,
+    "url": "https://ejemplo.com/merluza-fideos-ensalada"
+  },
+  {
+    "id": "cerdo_lomo_batata_brocoli",
+    "nombre": "Lomo de cerdo al horno con batata y brócoli",
+    "ingredientes": [
+      {"item": "cerdo_lomo", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "batata", "cantidad": 1, "unidad": "unidad"},
+      {"item": "brocoli", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 40,
+    "url": "https://ejemplo.com/cerdo-batata-brocoli"
+  },
+  {
+    "id": "ensalada_quinoa_salmon_palta",
+    "nombre": "Ensalada tibia de quinoa con salmón y palta",
+    "ingredientes": [
+      {"item": "quinoa", "cantidad": 1, "unidad": "taza"},
+      {"item": "salmon", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "palta", "cantidad": 0.5, "unidad": "unidad"},
+      {"item": "rucula", "cantidad": 2, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"}
+    ],
+    "tiempo_prep": 25,
+    "url": "https://ejemplo.com/quinoa-salmon-palta"
+  },
+  {
+    "id": "pollo_brochette_verduras",
+    "nombre": "Brochettes de pollo con pimiento, cebolla y calabacín",
+    "ingredientes": [
+      {"item": "pechuga_pollo", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "pimiento", "cantidad": 1, "unidad": "unidad"},
+      {"item": "cebolla", "cantidad": 1, "unidad": "unidad"},
+      {"item": "calabacin", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 30,
+    "url": "https://ejemplo.com/brochettes-pollo"
+  },
+  {
+    "id": "carne_molida_polenta_calabaza",
+    "nombre": "Carne picada con polenta y calabaza al horno",
+    "ingredientes": [
+      {"item": "carne_molida", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "polenta", "cantidad": 1, "unidad": "taza"},
+      {"item": "calabaza", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 30,
+    "url": "https://ejemplo.com/carne-polenta-calabaza"
+  },
+  {
+    "id": "tortilla_acelga_papa",
+    "nombre": "Tortilla de acelga y papa al horno",
+    "ingredientes": [
+      {"item": "huevo", "cantidad": 2, "unidad": "unidad"},
+      {"item": "acelga", "cantidad": 2, "unidad": "taza"},
+      {"item": "papa", "cantidad": 1, "unidad": "unidad"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 30,
+    "url": "https://ejemplo.com/tortilla-acelga-papa"
+  },
+  {
+    "id": "nalga_al_horno_remolacha_arvejas",
+    "nombre": "Nalga al horno con ensalada de remolacha y arvejas",
+    "ingredientes": [
+      {"item": "nalga", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "remolacha", "cantidad": 1, "unidad": "taza"},
+      {"item": "arvejas", "cantidad": 1, "unidad": "taza"},
+      {"item": "lechuga", "cantidad": 2, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 45,
+    "url": "https://ejemplo.com/nalga-remolacha-arvejas"
+  },
+  {
+    "id": "frijoles_arroz_pimiento",
+    "nombre": "Frijoles negros con arroz integral y pimiento salteado",
+    "ingredientes": [
+      {"item": "frijoles", "cantidad": 1, "unidad": "taza"},
+      {"item": "arroz_integral", "cantidad": 1, "unidad": "taza"},
+      {"item": "pimiento", "cantidad": 1, "unidad": "unidad"},
+      {"item": "cebolla", "cantidad": 1, "unidad": "unidad"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 35,
+    "url": "https://ejemplo.com/frijoles-arroz-pimiento"
+  },
+  {
+    "id": "milanesa_soja_ensalada",
+    "nombre": "Milanesa de soja con ensalada de lechuga, tomate y zanahoria",
+    "ingredientes": [
+      {"item": "milanesa_soja", "cantidad": 2, "unidad": "unidad"},
+      {"item": "lechuga", "cantidad": 2, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
+      {"item": "zanahoria", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 20,
+    "url": "https://ejemplo.com/milanesa-soja-ensalada"
+  },
+  {
+    "id": "trucha_burgol_coliflor",
+    "nombre": "Trucha a la plancha con trigo burgol y coliflor al horno",
+    "ingredientes": [
+      {"item": "trucha", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "trigo_burgol", "cantidad": 1, "unidad": "taza"},
+      {"item": "coliflor", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 30,
+    "url": "https://ejemplo.com/trucha-burgol-coliflor"
+  },
+  {
+    "id": "souffle_calabaza_queso",
+    "nombre": "Soufflé de calabaza y queso descremado con ensalada",
+    "ingredientes": [
+      {"item": "calabaza", "cantidad": 1, "unidad": "taza"},
+      {"item": "huevo", "cantidad": 2, "unidad": "unidad"},
+      {"item": "queso_descremado", "cantidad": 1, "unidad": "porcion"},
+      {"item": "rucula", "cantidad": 2, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 35,
+    "url": "https://ejemplo.com/souffle-calabaza-queso"
+  },
+  {
+    "id": "atun_ensalada_completa_papa",
+    "nombre": "Atún con ensalada completa y papa",
+    "ingredientes": [
+      {"item": "atun_lata", "cantidad": 1, "unidad": "taza"},
+      {"item": "papa", "cantidad": 1, "unidad": "unidad"},
+      {"item": "lechuga", "cantidad": 2, "unidad": "taza"},
+      {"item": "zanahoria", "cantidad": 1, "unidad": "taza"},
+      {"item": "huevo", "cantidad": 1, "unidad": "unidad"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 20,
+    "url": "https://ejemplo.com/atun-ensalada-papa"
+  },
+  {
+    "id": "pollo_al_horno_chauchas_batata",
+    "nombre": "Pollo al horno con chauchas y batata",
+    "ingredientes": [
+      {"item": "pollo_sin_piel", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "chauchas", "cantidad": 1, "unidad": "taza"},
+      {"item": "batata", "cantidad": 1, "unidad": "unidad"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada_postre"}
+    ],
+    "tiempo_prep": 40,
+    "url": "https://ejemplo.com/pollo-chauchas-batata"
+  },
+  {
+    "id": "galletitas_ricota_fruta",
+    "nombre": "Galletitas integrales con ricota magra y fruta",
+    "ingredientes": [
+      {"item": "galletitas_integrales", "cantidad": 4, "unidad": "unidad"},
+      {"item": "ricota_magra", "cantidad": 3, "unidad": "cucharada_sopera"},
+      {"item": "leche_descremada", "cantidad": 0.5, "unidad": "vaso"},
+      {"item": "durazno", "cantidad": 1, "unidad": "unidad"}
+    ],
+    "tiempo_prep": 5,
+    "url": "https://ejemplo.com/galletitas-ricota-fruta"
+  },
+  {
+    "id": "tostada_hummus_palta",
+    "nombre": "Tostada integral con hummus, palta y tomate",
+    "ingredientes": [
+      {"item": "pan_integral", "cantidad": 1, "unidad": "rebanada"},
+      {"item": "hummus", "cantidad": 2, "unidad": "cucharada_sopera"},
+      {"item": "palta", "cantidad": 0.5, "unidad": "unidad"},
+      {"item": "tomate", "cantidad": 0.5, "unidad": "taza"},
+      {"item": "yogur_descremado", "cantidad": 1, "unidad": "vaso"},
+      {"item": "naranja", "cantidad": 1, "unidad": "unidad"}
+    ],
+    "tiempo_prep": 5,
+    "url": "https://ejemplo.com/tostada-hummus-palta"
+  },
+  {
+    "id": "avena_overnight_fresas",
+    "nombre": "Avena overnight con yogur y frutillas",
+    "ingredientes": [
+      {"item": "avena", "cantidad": 0.5, "unidad": "taza"},
+      {"item": "yogur_descremado", "cantidad": 1, "unidad": "vaso"},
+      {"item": "fresas", "cantidad": 1, "unidad": "taza"},
+      {"item": "semillas", "cantidad": 2, "unidad": "cucharadita"}
+    ],
+    "tiempo_prep": 5,
+    "url": "https://ejemplo.com/avena-overnight-fresas"
+  },
+  {
+    "id": "tostada_queso_untable_mermelada",
+    "nombre": "Tostada con queso untable y mermelada diet con fruta",
+    "ingredientes": [
+      {"item": "pan_integral", "cantidad": 1, "unidad": "rebanada"},
+      {"item": "queso_untable", "cantidad": 2, "unidad": "cucharada_sopera"},
+      {"item": "mermelada_diet", "cantidad": 3, "unidad": "cucharadita"},
+      {"item": "leche_descremada", "cantidad": 0.5, "unidad": "vaso"},
+      {"item": "naranja", "cantidad": 1, "unidad": "unidad"}
+    ],
+    "tiempo_prep": 5,
+    "url": "https://ejemplo.com/tostada-untable-mermelada"
   }
 ]
+

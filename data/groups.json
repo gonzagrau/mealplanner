@@ -2,7 +2,12 @@
   {
     "id": "proteinas_animales",
     "nombre": "Proteínas Animales",
-    "items": ["pechuga_pollo", "muslo_pollo", "salmon", "atun_lata", "carne_molida"]
+    "items": [
+      "pechuga_pollo", "pollo_sin_piel",
+      "bife", "lomo_res", "carne_molida", "nalga", "peceto",
+      "cerdo_lomo", "cerdo_costilla",
+      "merluza", "salmon", "trucha", "lenguado", "atun_lata"
+    ]
   },
   {
     "id": "huevos",
@@ -12,31 +17,66 @@
   {
     "id": "proteinas_vegetales",
     "nombre": "Proteínas Vegetales",
-    "items": ["lentejas", "garbanzos", "frijoles", "tofu"]
+    "items": ["lentejas", "garbanzos", "frijoles", "hummus", "milanesa_soja"]
   },
   {
     "id": "verduras",
     "nombre": "Verduras",
-    "items": ["tomate", "lechuga", "espinaca", "calabacin", "brocoli", "zanahoria", "pimiento"]
+    "items": [
+      "tomate", "lechuga", "rucula", "acelga", "espinaca",
+      "brocoli", "coliflor", "cebolla", "pimiento", "berenjena",
+      "calabacin", "calabaza", "zanahoria", "pepino",
+      "chauchas", "remolacha", "arvejas"
+    ]
   },
   {
     "id": "frutas",
     "nombre": "Frutas",
-    "items": ["manzana", "platano", "naranja", "fresas"]
+    "items": ["manzana", "platano", "naranja", "fresas", "durazno", "ensalada_frutas"]
   },
   {
     "id": "almidones",
     "nombre": "Almidones",
-    "items": ["arroz_integral", "quinoa", "papa", "batata", "avena", "pan_integral"]
+    "items": [
+      "arroz_integral", "quinoa", "trigo_burgol", "amaranto",
+      "fideos_integrales", "ravioles", "polenta",
+      "papa", "batata", "choclo",
+      "avena", "pan_integral", "galletitas_integrales", "cereal_sin_azucar"
+    ]
+  },
+  {
+    "id": "almidones_desayuno",
+    "nombre": "Almidones Desayuno/Merienda",
+    "items": ["avena", "pan_integral", "galletitas_integrales", "cereal_sin_azucar"]
+  },
+  {
+    "id": "almidones_comida",
+    "nombre": "Almidones Almuerzo/Cena",
+    "items": [
+      "arroz_integral", "quinoa", "trigo_burgol", "amaranto",
+      "fideos_integrales", "ravioles", "polenta",
+      "papa", "batata", "choclo"
+    ]
   },
   {
     "id": "lacteos",
     "nombre": "Lácteos",
-    "items": ["yogur_natural", "leche"]
+    "items": ["yogur_descremado", "leche_descremada", "queso_descremado", "ricota_magra", "queso_untable"]
+  },
+  {
+    "id": "quesos",
+    "nombre": "Quesos",
+    "items": ["queso_descremado", "ricota_magra", "queso_untable", "hummus"]
   },
   {
     "id": "grasas_saludables",
     "nombre": "Grasas Saludables",
-    "items": ["aceite_oliva", "aguacate", "nueces"]
+    "items": ["aceite_oliva", "palta", "nueces", "almendras", "semillas", "aceitunas"]
+  },
+  {
+    "id": "condimentos",
+    "nombre": "Condimentos",
+    "items": ["mermelada_diet"]
   }
 ]
+

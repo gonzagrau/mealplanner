@@ -63,7 +63,7 @@ def test_validate_meal_fruit_limit_exceeded(rule_engine):
 
 def test_validate_meal_lacteo_limit_exceeded(rule_engine):
     tracker = _tracker(lacteos=2)
-    meal = Meal(tipo="desayuno", items=[MealItem(id="yogur_natural", cantidad=1)])
+    meal = Meal(tipo="desayuno", items=[MealItem(id="yogur_descremado", cantidad=1)])
     valid, violations = rule_engine.validate_meal(meal, tracker)
     assert not valid
     assert any("lácteo" in v.lower() for v in violations)

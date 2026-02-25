@@ -64,6 +64,7 @@ class Constraints(BaseModel):
     max_lacteos_por_dia: int = 2
     pizza_por_semana: int = 1
     min_verduras_por_dia: int = 2
+    max_frutos_secos_por_semana: int = 4
 
 
 # ---------------------------------------------------------------------------

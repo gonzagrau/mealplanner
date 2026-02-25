@@ -13,6 +13,7 @@ dependencies = [
     "rich>=13.0",
     "streamlit>=1.28",
     "pyyaml>=6.0",
+    "fpdf2>=2.7",
 ]
 
 [project.scripts]

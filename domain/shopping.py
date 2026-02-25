@@ -52,6 +52,7 @@ class ShoppingListBuilder:
             "almidon": "🌾 Almidones",
             "lacteo": "🥛 Lácteos",
             "grasa_saludable": "🫒 Grasas Saludables",
+            "condimento": "🧂 Condimentos",
         }
 
         for group_id, items in sorted(grouped.items()):

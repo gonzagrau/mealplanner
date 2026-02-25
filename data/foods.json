@@ -6,16 +6,88 @@
     "subgrupo": "ave",
     "porcion_default": 1,
     "unidad": "porcion_mano",
-    "notas": []
+    "notas": ["sin piel", "a la plancha, al horno o grillada"]
   },
   {
-    "id": "muslo_pollo",
-    "nombre": "Muslo de pollo",
+    "id": "pollo_sin_piel",
+    "nombre": "Pollo sin piel",
     "grupo": "proteina_animal",
     "subgrupo": "ave",
     "porcion_default": 1,
     "unidad": "porcion_mano",
-    "notas": ["con piel o sin piel"]
+    "notas": ["sin piel"]
+  },
+  {
+    "id": "bife",
+    "nombre": "Bife de res",
+    "grupo": "proteina_animal",
+    "subgrupo": "res",
+    "porcion_default": 1,
+    "unidad": "porcion_mano",
+    "notas": ["magro"]
+  },
+  {
+    "id": "lomo_res",
+    "nombre": "Lomo de res",
+    "grupo": "proteina_animal",
+    "subgrupo": "res",
+    "porcion_default": 1,
+    "unidad": "porcion_mano",
+    "notas": ["magro"]
+  },
+  {
+    "id": "carne_molida",
+    "nombre": "Carne picada magra",
+    "grupo": "proteina_animal",
+    "subgrupo": "res",
+    "porcion_default": 1,
+    "unidad": "porcion_mano",
+    "notas": ["magra, casera"]
+  },
+  {
+    "id": "nalga",
+    "nombre": "Nalga / Cuadril",
+    "grupo": "proteina_animal",
+    "subgrupo": "res",
+    "porcion_default": 1,
+    "unidad": "porcion_mano",
+    "notas": ["magro, al horno o parrilla"]
+  },
+  {
+    "id": "peceto",
+    "nombre": "Peceto",
+    "grupo": "proteina_animal",
+    "subgrupo": "res",
+    "porcion_default": 1,
+    "unidad": "porcion_mano",
+    "notas": ["magro"]
+  },
+  {
+    "id": "cerdo_lomo",
+    "nombre": "Lomo de cerdo",
+    "grupo": "proteina_animal",
+    "subgrupo": "cerdo",
+    "porcion_default": 1,
+    "unidad": "porcion_mano",
+    "notas": ["magro"]
+  },
+  {
+    "id": "cerdo_costilla",
+    "nombre": "Costilla de cerdo desgrasada",
+    "grupo": "proteina_animal",
+    "subgrupo": "cerdo",
+    "porcion_default": 1,
+    "unidad": "porcion_mano",
+    "notas": ["desgrasada"]
+  },
+  {
+    "id": "merluza",
+    "nombre": "Merluza",
+    "grupo": "proteina_animal",
+    "subgrupo": "pescado",
+    "porcion_default": 1,
+    "unidad": "porcion_mano",
+    "notas": []
   },
   {
     "id": "salmon",
@@ -27,6 +99,24 @@
     "notas": ["rico en omega-3"]
   },
   {
+    "id": "trucha",
+    "nombre": "Trucha",
+    "grupo": "proteina_animal",
+    "subgrupo": "pescado",
+    "porcion_default": 1,
+    "unidad": "porcion_mano",
+    "notas": []
+  },
+  {
+    "id": "lenguado",
+    "nombre": "Lenguado",
+    "grupo": "proteina_animal",
+    "subgrupo": "pescado",
+    "porcion_default": 1,
+    "unidad": "porcion_mano",
+    "notas": []
+  },
+  {
     "id": "atun_lata",
     "nombre": "Atún en lata",
     "grupo": "proteina_animal",
@@ -36,22 +126,13 @@
     "notas": ["preferir al natural"]
   },
   {
-    "id": "carne_molida",
-    "nombre": "Carne molida",
-    "grupo": "proteina_animal",
-    "subgrupo": "res",
-    "porcion_default": 1,
-    "unidad": "porcion_mano",
-    "notas": ["preferir 90/10"]
-  },
-  {
     "id": "huevo",
     "nombre": "Huevo",
     "grupo": "huevo",
     "subgrupo": "huevo",
     "porcion_default": 2,
     "unidad": "unidad",
-    "notas": []
+    "notas": ["duro, a la plancha, en tortilla, omelette o revuelto", "hasta 2 por día"]
   },
   {
     "id": "tomate",
@@ -72,8 +153,8 @@
     "notas": []
   },
   {
-    "id": "espinaca",
-    "nombre": "Espinaca",
+    "id": "rucula",
+    "nombre": "Rúcula",
     "grupo": "verdura",
     "subgrupo": "hoja_verde",
     "porcion_default": 2,
@@ -81,11 +162,20 @@
     "notas": []
   },
   {
-    "id": "calabacin",
-    "nombre": "Calabacín",
+    "id": "acelga",
+    "nombre": "Acelga",
     "grupo": "verdura",
-    "subgrupo": "verdura_cocinada",
-    "porcion_default": 1,
+    "subgrupo": "hoja_verde",
+    "porcion_default": 2,
+    "unidad": "taza",
+    "notas": []
+  },
+  {
+    "id": "espinaca",
+    "nombre": "Espinaca",
+    "grupo": "verdura",
+    "subgrupo": "hoja_verde",
+    "porcion_default": 2,
     "unidad": "taza",
     "notas": []
   },
@@ -99,6 +189,60 @@
     "notas": []
   },
   {
+    "id": "coliflor",
+    "nombre": "Coliflor",
+    "grupo": "verdura",
+    "subgrupo": "verdura_cocinada",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": []
+  },
+  {
+    "id": "cebolla",
+    "nombre": "Cebolla",
+    "grupo": "verdura",
+    "subgrupo": "verdura_fresca",
+    "porcion_default": 1,
+    "unidad": "unidad",
+    "notas": []
+  },
+  {
+    "id": "pimiento",
+    "nombre": "Ají morrón",
+    "grupo": "verdura",
+    "subgrupo": "verdura_fresca",
+    "porcion_default": 1,
+    "unidad": "unidad",
+    "notas": ["rojo, verde o amarillo"]
+  },
+  {
+    "id": "berenjena",
+    "nombre": "Berenjena",
+    "grupo": "verdura",
+    "subgrupo": "verdura_cocinada",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": []
+  },
+  {
+    "id": "calabacin",
+    "nombre": "Zapallito",
+    "grupo": "verdura",
+    "subgrupo": "verdura_cocinada",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": []
+  },
+  {
+    "id": "calabaza",
+    "nombre": "Calabaza",
+    "grupo": "verdura",
+    "subgrupo": "verdura_cocinada",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": ["al horno"]
+  },
+  {
     "id": "zanahoria",
     "nombre": "Zanahoria",
     "grupo": "verdura",
@@ -108,13 +252,40 @@
     "notas": []
   },
   {
-    "id": "pimiento",
-    "nombre": "Pimiento",
+    "id": "pepino",
+    "nombre": "Pepino",
     "grupo": "verdura",
     "subgrupo": "verdura_fresca",
     "porcion_default": 1,
-    "unidad": "unidad",
-    "notas": ["rojo, verde o amarillo"]
+    "unidad": "taza",
+    "notas": []
+  },
+  {
+    "id": "chauchas",
+    "nombre": "Chauchas",
+    "grupo": "verdura",
+    "subgrupo": "verdura_cocinada",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": []
+  },
+  {
+    "id": "remolacha",
+    "nombre": "Remolacha",
+    "grupo": "verdura",
+    "subgrupo": "verdura_raiz",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": []
+  },
+  {
+    "id": "arvejas",
+    "nombre": "Arvejas",
+    "grupo": "verdura",
+    "subgrupo": "verdura_cocinada",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": []
   },
   {
     "id": "manzana",
@@ -127,7 +298,7 @@
   },
   {
     "id": "platano",
-    "nombre": "Plátano",
+    "nombre": "Banana",
     "grupo": "fruta",
     "subgrupo": "fruta_tropical",
     "porcion_default": 1,
@@ -145,7 +316,7 @@
   },
   {
     "id": "fresas",
-    "nombre": "Fresas",
+    "nombre": "Frutillas",
     "grupo": "fruta",
     "subgrupo": "baya",
     "porcion_default": 1,
@@ -153,22 +324,85 @@
     "notas": []
   },
   {
+    "id": "durazno",
+    "nombre": "Durazno",
+    "grupo": "fruta",
+    "subgrupo": "fruta_templada",
+    "porcion_default": 1,
+    "unidad": "unidad",
+    "notas": ["fresco o al natural diet"]
+  },
+  {
+    "id": "ensalada_frutas",
+    "nombre": "Ensalada de frutas",
+    "grupo": "fruta",
+    "subgrupo": "mix",
+    "porcion_default": 1,
+    "unidad": "bowl",
+    "notas": ["variar colores"]
+  },
+  {
     "id": "arroz_integral",
     "nombre": "Arroz integral",
     "grupo": "almidon",
     "subgrupo": "cereal",
-    "porcion_default": 0.5,
+    "porcion_default": 1,
     "unidad": "taza",
-    "notas": ["cocido"]
+    "notas": ["cocido", "almuerzo: 1 taza, cena: 3 cdas soperas"]
   },
   {
     "id": "quinoa",
     "nombre": "Quinoa",
     "grupo": "almidon",
     "subgrupo": "pseudocereal",
-    "porcion_default": 0.5,
+    "porcion_default": 1,
     "unidad": "taza",
     "notas": ["cocida", "proteína completa"]
+  },
+  {
+    "id": "trigo_burgol",
+    "nombre": "Trigo burgol",
+    "grupo": "almidon",
+    "subgrupo": "cereal",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": ["cocido"]
+  },
+  {
+    "id": "amaranto",
+    "nombre": "Amaranto",
+    "grupo": "almidon",
+    "subgrupo": "pseudocereal",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": ["cocido"]
+  },
+  {
+    "id": "fideos_integrales",
+    "nombre": "Fideos integrales",
+    "grupo": "almidon",
+    "subgrupo": "pasta",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": ["al dente, cocidos"]
+  },
+  {
+    "id": "ravioles",
+    "nombre": "Ravioles de verdura o pollo",
+    "grupo": "almidon",
+    "subgrupo": "pasta",
+    "porcion_default": 20,
+    "unidad": "unidad",
+    "notas": ["media plancha"]
+  },
+  {
+    "id": "polenta",
+    "nombre": "Polenta",
+    "grupo": "almidon",
+    "subgrupo": "cereal",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": ["cocida"]
   },
   {
     "id": "papa",
@@ -189,6 +423,15 @@
     "notas": ["mediana", "rica en betacarotenos"]
   },
   {
+    "id": "choclo",
+    "nombre": "Choclo",
+    "grupo": "almidon",
+    "subgrupo": "cereal",
+    "porcion_default": 1,
+    "unidad": "unidad",
+    "notas": ["mediano"]
+  },
+  {
     "id": "avena",
     "nombre": "Avena",
     "grupo": "almidon",
@@ -202,27 +445,72 @@
     "nombre": "Pan integral",
     "grupo": "almidon",
     "subgrupo": "pan",
-    "porcion_default": 2,
+    "porcion_default": 1,
     "unidad": "rebanada",
-    "notas": []
+    "notas": ["o multicereal o salvado o tostada integral"]
   },
   {
-    "id": "yogur_natural",
-    "nombre": "Yogur natural",
+    "id": "galletitas_integrales",
+    "nombre": "Galletitas integrales",
+    "grupo": "almidon",
+    "subgrupo": "galletita",
+    "porcion_default": 4,
+    "unidad": "unidad",
+    "notas": ["tipo Granix"]
+  },
+  {
+    "id": "cereal_sin_azucar",
+    "nombre": "Cereal sin azúcar",
+    "grupo": "almidon",
+    "subgrupo": "cereal",
+    "porcion_default": 0.5,
+    "unidad": "taza",
+    "notas": ["tipo granola sin azúcar"]
+  },
+  {
+    "id": "yogur_descremado",
+    "nombre": "Yogur descremado",
     "grupo": "lacteo",
     "subgrupo": "yogur",
     "porcion_default": 1,
-    "unidad": "taza",
-    "notas": ["sin azúcar añadida", "preferir griego"]
+    "unidad": "vaso",
+    "notas": ["saborizado o natural", "sin azúcar agregada", "preferir con 15g de proteínas"]
   },
   {
-    "id": "leche",
-    "nombre": "Leche",
+    "id": "leche_descremada",
+    "nombre": "Leche descremada",
     "grupo": "lacteo",
     "subgrupo": "leche",
+    "porcion_default": 0.5,
+    "unidad": "vaso",
+    "notas": ["mejor Protein"]
+  },
+  {
+    "id": "queso_descremado",
+    "nombre": "Queso descremado",
+    "grupo": "lacteo",
+    "subgrupo": "queso",
     "porcion_default": 1,
-    "unidad": "taza",
-    "notas": ["descremada o entera"]
+    "unidad": "porcion",
+    "notas": ["1 porción mediana o 3 fetas"]
+  },
+  {
+    "id": "ricota_magra",
+    "nombre": "Ricota magra",
+    "grupo": "lacteo",
+    "subgrupo": "queso",
+    "porcion_default": 3,
+    "unidad": "cucharada_sopera",
+    "notas": []
+  },
+  {
+    "id": "queso_untable",
+    "nombre": "Queso untable descremado",
+    "grupo": "lacteo",
+    "subgrupo": "queso",
+    "porcion_default": 2,
+    "unidad": "cucharada_sopera",
+    "notas": []
   },
   {
     "id": "aceite_oliva",
@@ -230,17 +518,17 @@
     "grupo": "grasa_saludable",
     "subgrupo": "aceite",
     "porcion_default": 1,
-    "unidad": "cucharada",
-    "notas": ["extra virgen"]
+    "unidad": "cucharada_postre",
+    "notas": ["extra virgen", "1 cucharada postre por comida"]
   },
   {
-    "id": "aguacate",
-    "nombre": "Aguacate",
+    "id": "palta",
+    "nombre": "Palta",
     "grupo": "grasa_saludable",
     "subgrupo": "fruto",
     "porcion_default": 0.5,
     "unidad": "unidad",
-    "notas": ["rico en grasas monoinsaturadas"]
+    "notas": ["chica", "alternativa a 1 cda aceite"]
   },
   {
     "id": "nueces",
@@ -249,6 +537,33 @@
     "subgrupo": "fruto_seco",
     "porcion_default": 1,
     "unidad": "puñado",
+    "notas": ["colación entre comidas", "3-4 veces/semana"]
+  },
+  {
+    "id": "almendras",
+    "nombre": "Almendras",
+    "grupo": "grasa_saludable",
+    "subgrupo": "fruto_seco",
+    "porcion_default": 1,
+    "unidad": "puñado",
+    "notas": ["colación entre comidas", "3-4 veces/semana"]
+  },
+  {
+    "id": "semillas",
+    "nombre": "Semillas (lino/chía/sésamo)",
+    "grupo": "grasa_saludable",
+    "subgrupo": "semilla",
+    "porcion_default": 2,
+    "unidad": "cucharadita",
+    "notas": ["siempre procesadas/molidas"]
+  },
+  {
+    "id": "aceitunas",
+    "nombre": "Aceitunas",
+    "grupo": "grasa_saludable",
+    "subgrupo": "fruto",
+    "porcion_default": 4,
+    "unidad": "unidad",
     "notas": []
   },
   {
@@ -256,7 +571,7 @@
     "nombre": "Lentejas",
     "grupo": "proteina_vegetal",
     "subgrupo": "legumbre",
-    "porcion_default": 0.5,
+    "porcion_default": 1,
     "unidad": "taza",
     "notas": ["cocidas"]
   },
@@ -265,7 +580,7 @@
     "nombre": "Garbanzos",
     "grupo": "proteina_vegetal",
     "subgrupo": "legumbre",
-    "porcion_default": 0.5,
+    "porcion_default": 1,
     "unidad": "taza",
     "notas": ["cocidos o en lata"]
   },
@@ -274,17 +589,36 @@
     "nombre": "Frijoles negros",
     "grupo": "proteina_vegetal",
     "subgrupo": "legumbre",
-    "porcion_default": 0.5,
+    "porcion_default": 1,
     "unidad": "taza",
     "notas": ["cocidos"]
   },
   {
-    "id": "tofu",
-    "nombre": "Tofu",
+    "id": "hummus",
+    "nombre": "Hummus de garbanzo",
+    "grupo": "proteina_vegetal",
+    "subgrupo": "legumbre",
+    "porcion_default": 2,
+    "unidad": "cucharada_sopera",
+    "notas": []
+  },
+  {
+    "id": "milanesa_soja",
+    "nombre": "Milanesa de soja",
     "grupo": "proteina_vegetal",
     "subgrupo": "soya",
-    "porcion_default": 1,
-    "unidad": "porcion_mano",
-    "notas": ["firme"]
+    "porcion_default": 2,
+    "unidad": "unidad",
+    "notas": []
+  },
+  {
+    "id": "mermelada_diet",
+    "nombre": "Mermelada diet",
+    "grupo": "condimento",
+    "subgrupo": "dulce",
+    "porcion_default": 3,
+    "unidad": "cucharadita",
+    "notas": []
   }
 ]
+

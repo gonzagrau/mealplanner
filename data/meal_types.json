@@ -2,41 +2,48 @@
   {
     "id": "desayuno",
     "nombre": "Desayuno",
-    "requires": ["almidones", "frutas"],
-    "optional": ["lacteos", "proteinas_vegetales", "huevos", "grasas_saludables"],
+    "requires": ["lacteos", "almidones_desayuno", "frutas"],
+    "optional": ["quesos", "huevos", "grasas_saludables", "condimentos"],
     "rules": [
-      {"grupo": "almidones", "cantidad": 1, "unidad": "porcion"},
-      {"grupo": "frutas", "cantidad": 1, "unidad": "porcion"}
+      {"grupo": "lacteos", "cantidad": 1, "unidad": "porcion"},
+      {"grupo": "almidones_desayuno", "cantidad": 1, "unidad": "porcion"},
+      {"grupo": "frutas", "cantidad": 1, "unidad": "unidad"}
     ]
   },
   {
     "id": "almuerzo",
     "nombre": "Almuerzo",
-    "requires": ["proteinas_animales", "verduras", "almidones"],
-    "optional": ["grasas_saludables", "frutas"],
+    "requires": ["proteinas_animales", "verduras", "almidones_comida", "grasas_saludables"],
+    "optional": ["frutas", "huevos"],
     "rules": [
       {"grupo": "proteinas_animales", "cantidad": 1, "unidad": "porcion_mano"},
-      {"grupo": "verduras", "cantidad": 1, "unidad": "taza"},
-      {"grupo": "almidones", "cantidad": 1, "unidad": "porcion"}
+      {"grupo": "verduras", "cantidad": 1, "unidad": "medio_plato"},
+      {"grupo": "almidones_comida", "cantidad": 1, "unidad": "taza"},
+      {"grupo": "grasas_saludables", "cantidad": 1, "unidad": "cucharada_postre"}
     ]
   },
   {
     "id": "merienda",
     "nombre": "Merienda",
-    "requires": ["frutas"],
-    "optional": ["lacteos", "grasas_saludables", "proteinas_vegetales"],
+    "requires": ["lacteos", "almidones_desayuno", "frutas"],
+    "optional": ["quesos", "huevos", "grasas_saludables", "condimentos"],
     "rules": [
-      {"grupo": "frutas", "cantidad": 1, "unidad": "porcion"}
+      {"grupo": "lacteos", "cantidad": 1, "unidad": "porcion"},
+      {"grupo": "almidones_desayuno", "cantidad": 1, "unidad": "porcion"},
+      {"grupo": "frutas", "cantidad": 1, "unidad": "unidad"}
     ]
   },
   {
     "id": "cena",
     "nombre": "Cena",
-    "requires": ["proteinas_animales", "verduras"],
-    "optional": ["almidones", "grasas_saludables", "huevos"],
+    "requires": ["proteinas_animales", "verduras", "grasas_saludables"],
+    "optional": ["almidones_comida", "frutas", "huevos"],
     "rules": [
       {"grupo": "proteinas_animales", "cantidad": 1, "unidad": "porcion_mano"},
-      {"grupo": "verduras", "cantidad": 1, "unidad": "taza"}
+      {"grupo": "verduras", "cantidad": 1, "unidad": "medio_plato"},
+      {"grupo": "grasas_saludables", "cantidad": 1, "unidad": "cucharada_postre"},
+      {"grupo": "almidones_comida", "cantidad": 3, "unidad": "cucharada_sopera"}
     ]
   }
 ]
+

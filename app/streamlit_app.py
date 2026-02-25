@@ -13,6 +13,7 @@ import pandas as pd
 from domain.models import DataLoader
 from domain.generator import MealGenerator
 from domain.shopping import ShoppingListBuilder
+from domain.export_pdf import build_pdf
 
 
 def main():
@@ -89,12 +90,25 @@ def main():
     st.dataframe(df, use_container_width=True, hide_index=True)
 
     # ----------------------------------------------------------------
+    # PDF download
+    # ----------------------------------------------------------------
+    builder = ShoppingListBuilder(foods=foods)
+    shopping_list = builder.build(week_plan)
+
+    pdf_bytes = build_pdf(week_plan, shopping_list, foods, meal_types)
+    st.download_button(
+        label="📄 Descargar Plan en PDF",
+        data=pdf_bytes,
+        file_name="plan_comidas.pdf",
+        mime="application/pdf",
+        use_container_width=True,
+    )
+
+    # ----------------------------------------------------------------
     # Shopping list
     # ----------------------------------------------------------------
     st.subheader("🛒 Lista de Compras")
 
-    builder = ShoppingListBuilder(foods=foods)
-    shopping_list = builder.build(week_plan)
     grouped = shopping_list.by_group()
 
     group_labels = {
@@ -106,6 +120,7 @@ def main():
         "almidon": "🌾 Almidones",
         "lacteo": "🥛 Lácteos",
         "grasa_saludable": "🫒 Grasas Saludables",
+        "condimento": "🧂 Condimentos",
     }
 
     cols = st.columns(2)

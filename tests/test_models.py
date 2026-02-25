@@ -49,6 +49,10 @@ def test_load_groups_contains_expected(loader):
     assert "verduras" in groups
     assert "frutas" in groups
     assert "almidones" in groups
+    assert "almidones_desayuno" in groups
+    assert "almidones_comida" in groups
+    assert "lacteos" in groups
+    assert "grasas_saludables" in groups
 
 
 def test_load_meal_types(loader):
@@ -99,3 +103,4 @@ def test_constraints_defaults():
     assert c.max_frutas_por_dia == 3
     assert c.max_lacteos_por_dia == 2
     assert c.min_verduras_por_dia == 2
+    assert c.max_frutos_secos_por_semana == 4

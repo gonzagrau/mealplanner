@@ -15,6 +15,7 @@ from rich import box
 from domain.models import DataLoader
 from domain.generator import MealGenerator
 from domain.shopping import ShoppingListBuilder
+from domain.export_pdf import build_pdf
 
 console = Console()
 
@@ -28,6 +29,9 @@ def generate(
     ),
     no_shopping_list: bool = typer.Option(
         False, "--no-shopping-list", help="Omitir lista de compras"
+    ),
+    pdf: Optional[str] = typer.Option(
+        None, "--pdf", "-p", help="Exportar plan a PDF en la ruta indicada (ej. plan.pdf)"
     ),
 ):
     """Genera un plan de comidas y (opcionalmente) la lista de compras."""
@@ -89,5 +93,14 @@ def generate(
         formatted = builder.format_list(shopping_list)
         console.print(f"\n[bold cyan]🛒 Lista de Compras[/bold cyan]\n")
         console.print(formatted)
+
+    if pdf:
+        builder = ShoppingListBuilder(foods=foods)
+        shopping_list = builder.build(week_plan)
+        pdf_bytes = build_pdf(week_plan, shopping_list, foods, meal_types)
+        from pathlib import Path
+        out_path = Path(pdf)
+        out_path.write_bytes(pdf_bytes)
+        console.print(f"\n[bold cyan]📄 PDF exportado a: {out_path.resolve()}[/bold cyan]")
 
     console.print("\n[bold green]✅ Plan generado correctamente.[/bold green]\n")
