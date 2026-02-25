@@ -1,0 +1,18 @@
+services:
+  # Generate a meal plan via the CLI (one-shot)
+  cli:
+    build: .
+    command: ["generate", "--days", "7", "--seed", "42"]
+
+  # Streamlit web UI
+  web:
+    build: .
+    entrypoint: ["streamlit", "run", "app/streamlit_app.py", "--server.address=0.0.0.0", "--server.port=8501"]
+    ports:
+      - "8501:8501"
+
+  # Run tests
+  tests:
+    build: .
+    entrypoint: ["pytest", "-v"]
+
