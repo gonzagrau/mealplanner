@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from typing import Optional
+from typing import Any, Optional
 
 from pydantic import BaseModel, field_validator
 
@@ -139,7 +139,7 @@ class DataLoader:
     def __init__(self, data_dir: Optional[Path] = None):
         self.data_dir = data_dir or get_data_dir()
 
-    def _load(self, filename: str) -> list | dict:
+    def _load(self, filename: str) -> Any:
         path = self.data_dir / filename
         with open(path, encoding="utf-8") as f:
             return json.load(f)

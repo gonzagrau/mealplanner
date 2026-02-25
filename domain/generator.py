@@ -119,4 +119,4 @@ class MealGenerator:
         food = self.foods.get(food_id)
         if food is None:
             return True
-        return food.grupo not in ("proteina_animal",)
+        return food.grupo != "proteina_animal"

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import streamlit as st
+import pandas as pd
 
 from domain.models import DataLoader
 from domain.generator import MealGenerator
@@ -59,7 +60,6 @@ def main():
     st.subheader("📅 Plan Semanal")
 
     header_cols = ["Día"] + [mt.nombre for mt in meal_types]
-    import pandas as pd
 
     rows = []
     for day_plan in week_plan.dias:
