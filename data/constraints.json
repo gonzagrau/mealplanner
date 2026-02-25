@@ -1,0 +1,7 @@
+{
+  "max_huevos_por_dia": 2,
+  "max_frutas_por_dia": 3,
+  "max_lacteos_por_dia": 2,
+  "pizza_por_semana": 1,
+  "min_verduras_por_dia": 2
+}

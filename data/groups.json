@@ -1,0 +1,42 @@
+[
+  {
+    "id": "proteinas_animales",
+    "nombre": "Proteínas Animales",
+    "items": ["pechuga_pollo", "muslo_pollo", "salmon", "atun_lata", "carne_molida"]
+  },
+  {
+    "id": "huevos",
+    "nombre": "Huevos",
+    "items": ["huevo"]
+  },
+  {
+    "id": "proteinas_vegetales",
+    "nombre": "Proteínas Vegetales",
+    "items": ["lentejas", "garbanzos", "frijoles", "tofu"]
+  },
+  {
+    "id": "verduras",
+    "nombre": "Verduras",
+    "items": ["tomate", "lechuga", "espinaca", "calabacin", "brocoli", "zanahoria", "pimiento"]
+  },
+  {
+    "id": "frutas",
+    "nombre": "Frutas",
+    "items": ["manzana", "platano", "naranja", "fresas"]
+  },
+  {
+    "id": "almidones",
+    "nombre": "Almidones",
+    "items": ["arroz_integral", "quinoa", "papa", "batata", "avena", "pan_integral"]
+  },
+  {
+    "id": "lacteos",
+    "nombre": "Lácteos",
+    "items": ["yogur_natural", "leche"]
+  },
+  {
+    "id": "grasas_saludables",
+    "nombre": "Grasas Saludables",
+    "items": ["aceite_oliva", "aguacate", "nueces"]
+  }
+]

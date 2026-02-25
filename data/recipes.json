@@ -1,0 +1,151 @@
+[
+  {
+    "id": "ensalada_pollo",
+    "nombre": "Ensalada de Pollo con Aguacate",
+    "ingredientes": [
+      {"item": "pechuga_pollo", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "lechuga", "cantidad": 2, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
+      {"item": "aguacate", "cantidad": 0.5, "unidad": "unidad"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
+    ],
+    "tiempo_prep": 15,
+    "url": "https://ejemplo.com/ensalada-pollo"
+  },
+  {
+    "id": "arroz_salmon",
+    "nombre": "Arroz Integral con Salmón y Brócoli",
+    "ingredientes": [
+      {"item": "salmon", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "arroz_integral", "cantidad": 0.5, "unidad": "taza"},
+      {"item": "brocoli", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
+    ],
+    "tiempo_prep": 25,
+    "url": "https://ejemplo.com/arroz-salmon"
+  },
+  {
+    "id": "tortilla_espanola",
+    "nombre": "Tortilla Española",
+    "ingredientes": [
+      {"item": "huevo", "cantidad": 2, "unidad": "unidad"},
+      {"item": "papa", "cantidad": 1, "unidad": "unidad"},
+      {"item": "aceite_oliva", "cantidad": 2, "unidad": "cucharada"},
+      {"item": "pimiento", "cantidad": 0.5, "unidad": "unidad"}
+    ],
+    "tiempo_prep": 30,
+    "url": "https://ejemplo.com/tortilla-espanola"
+  },
+  {
+    "id": "sopa_lentejas",
+    "nombre": "Sopa de Lentejas con Verduras",
+    "ingredientes": [
+      {"item": "lentejas", "cantidad": 0.5, "unidad": "taza"},
+      {"item": "zanahoria", "cantidad": 1, "unidad": "taza"},
+      {"item": "espinaca", "cantidad": 1, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 0.5, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
+    ],
+    "tiempo_prep": 40,
+    "url": "https://ejemplo.com/sopa-lentejas"
+  },
+  {
+    "id": "bowl_quinoa",
+    "nombre": "Bowl de Quinoa con Garbanzos",
+    "ingredientes": [
+      {"item": "quinoa", "cantidad": 0.5, "unidad": "taza"},
+      {"item": "garbanzos", "cantidad": 0.5, "unidad": "taza"},
+      {"item": "espinaca", "cantidad": 2, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 0.5, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
+    ],
+    "tiempo_prep": 20,
+    "url": "https://ejemplo.com/bowl-quinoa"
+  },
+  {
+    "id": "pollo_asado_batata",
+    "nombre": "Pollo Asado con Batata",
+    "ingredientes": [
+      {"item": "pechuga_pollo", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "batata", "cantidad": 1, "unidad": "unidad"},
+      {"item": "brocoli", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
+    ],
+    "tiempo_prep": 35,
+    "url": "https://ejemplo.com/pollo-batata"
+  },
+  {
+    "id": "desayuno_avena",
+    "nombre": "Porridge de Avena con Frutas",
+    "ingredientes": [
+      {"item": "avena", "cantidad": 0.5, "unidad": "taza"},
+      {"item": "platano", "cantidad": 1, "unidad": "unidad"},
+      {"item": "fresas", "cantidad": 0.5, "unidad": "taza"},
+      {"item": "leche", "cantidad": 1, "unidad": "taza"}
+    ],
+    "tiempo_prep": 10,
+    "url": "https://ejemplo.com/porridge-avena"
+  },
+  {
+    "id": "carne_molida_calabacin",
+    "nombre": "Carne Molida con Calabacín",
+    "ingredientes": [
+      {"item": "carne_molida", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "calabacin", "cantidad": 1, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
+    ],
+    "tiempo_prep": 25,
+    "url": "https://ejemplo.com/carne-calabacin"
+  },
+  {
+    "id": "ensalada_atun",
+    "nombre": "Ensalada de Atún",
+    "ingredientes": [
+      {"item": "atun_lata", "cantidad": 1, "unidad": "taza"},
+      {"item": "lechuga", "cantidad": 2, "unidad": "taza"},
+      {"item": "tomate", "cantidad": 1, "unidad": "taza"},
+      {"item": "aguacate", "cantidad": 0.5, "unidad": "unidad"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
+    ],
+    "tiempo_prep": 10,
+    "url": "https://ejemplo.com/ensalada-atun"
+  },
+  {
+    "id": "tofu_salteado",
+    "nombre": "Tofu Salteado con Verduras",
+    "ingredientes": [
+      {"item": "tofu", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "brocoli", "cantidad": 1, "unidad": "taza"},
+      {"item": "pimiento", "cantidad": 1, "unidad": "unidad"},
+      {"item": "zanahoria", "cantidad": 0.5, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
+    ],
+    "tiempo_prep": 20,
+    "url": "https://ejemplo.com/tofu-salteado"
+  },
+  {
+    "id": "yogur_frutas",
+    "nombre": "Yogur con Frutas y Nueces",
+    "ingredientes": [
+      {"item": "yogur_natural", "cantidad": 1, "unidad": "taza"},
+      {"item": "fresas", "cantidad": 0.5, "unidad": "taza"},
+      {"item": "manzana", "cantidad": 0.5, "unidad": "unidad"},
+      {"item": "nueces", "cantidad": 1, "unidad": "puñado"}
+    ],
+    "tiempo_prep": 5,
+    "url": "https://ejemplo.com/yogur-frutas"
+  },
+  {
+    "id": "muslo_pollo_arroz",
+    "nombre": "Muslo de Pollo con Arroz y Zanahoria",
+    "ingredientes": [
+      {"item": "muslo_pollo", "cantidad": 1, "unidad": "porcion_mano"},
+      {"item": "arroz_integral", "cantidad": 0.5, "unidad": "taza"},
+      {"item": "zanahoria", "cantidad": 1, "unidad": "taza"},
+      {"item": "aceite_oliva", "cantidad": 1, "unidad": "cucharada"}
+    ],
+    "tiempo_prep": 30,
+    "url": "https://ejemplo.com/muslo-arroz"
+  }
+]
