@@ -1,0 +1,290 @@
+[
+  {
+    "id": "pechuga_pollo",
+    "nombre": "Pechuga de pollo",
+    "grupo": "proteina_animal",
+    "subgrupo": "ave",
+    "porcion_default": 1,
+    "unidad": "porcion_mano",
+    "notas": []
+  },
+  {
+    "id": "muslo_pollo",
+    "nombre": "Muslo de pollo",
+    "grupo": "proteina_animal",
+    "subgrupo": "ave",
+    "porcion_default": 1,
+    "unidad": "porcion_mano",
+    "notas": ["con piel o sin piel"]
+  },
+  {
+    "id": "salmon",
+    "nombre": "Salmón",
+    "grupo": "proteina_animal",
+    "subgrupo": "pescado",
+    "porcion_default": 1,
+    "unidad": "porcion_mano",
+    "notas": ["rico en omega-3"]
+  },
+  {
+    "id": "atun_lata",
+    "nombre": "Atún en lata",
+    "grupo": "proteina_animal",
+    "subgrupo": "pescado",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": ["preferir al natural"]
+  },
+  {
+    "id": "carne_molida",
+    "nombre": "Carne molida",
+    "grupo": "proteina_animal",
+    "subgrupo": "res",
+    "porcion_default": 1,
+    "unidad": "porcion_mano",
+    "notas": ["preferir 90/10"]
+  },
+  {
+    "id": "huevo",
+    "nombre": "Huevo",
+    "grupo": "huevo",
+    "subgrupo": "huevo",
+    "porcion_default": 2,
+    "unidad": "unidad",
+    "notas": []
+  },
+  {
+    "id": "tomate",
+    "nombre": "Tomate",
+    "grupo": "verdura",
+    "subgrupo": "verdura_fresca",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": []
+  },
+  {
+    "id": "lechuga",
+    "nombre": "Lechuga",
+    "grupo": "verdura",
+    "subgrupo": "hoja_verde",
+    "porcion_default": 2,
+    "unidad": "taza",
+    "notas": []
+  },
+  {
+    "id": "espinaca",
+    "nombre": "Espinaca",
+    "grupo": "verdura",
+    "subgrupo": "hoja_verde",
+    "porcion_default": 2,
+    "unidad": "taza",
+    "notas": []
+  },
+  {
+    "id": "calabacin",
+    "nombre": "Calabacín",
+    "grupo": "verdura",
+    "subgrupo": "verdura_cocinada",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": []
+  },
+  {
+    "id": "brocoli",
+    "nombre": "Brócoli",
+    "grupo": "verdura",
+    "subgrupo": "verdura_cocinada",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": []
+  },
+  {
+    "id": "zanahoria",
+    "nombre": "Zanahoria",
+    "grupo": "verdura",
+    "subgrupo": "verdura_raiz",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": []
+  },
+  {
+    "id": "pimiento",
+    "nombre": "Pimiento",
+    "grupo": "verdura",
+    "subgrupo": "verdura_fresca",
+    "porcion_default": 1,
+    "unidad": "unidad",
+    "notas": ["rojo, verde o amarillo"]
+  },
+  {
+    "id": "manzana",
+    "nombre": "Manzana",
+    "grupo": "fruta",
+    "subgrupo": "fruta_templada",
+    "porcion_default": 1,
+    "unidad": "unidad",
+    "notas": []
+  },
+  {
+    "id": "platano",
+    "nombre": "Plátano",
+    "grupo": "fruta",
+    "subgrupo": "fruta_tropical",
+    "porcion_default": 1,
+    "unidad": "unidad",
+    "notas": ["buena fuente de potasio"]
+  },
+  {
+    "id": "naranja",
+    "nombre": "Naranja",
+    "grupo": "fruta",
+    "subgrupo": "citrico",
+    "porcion_default": 1,
+    "unidad": "unidad",
+    "notas": []
+  },
+  {
+    "id": "fresas",
+    "nombre": "Fresas",
+    "grupo": "fruta",
+    "subgrupo": "baya",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": []
+  },
+  {
+    "id": "arroz_integral",
+    "nombre": "Arroz integral",
+    "grupo": "almidon",
+    "subgrupo": "cereal",
+    "porcion_default": 0.5,
+    "unidad": "taza",
+    "notas": ["cocido"]
+  },
+  {
+    "id": "quinoa",
+    "nombre": "Quinoa",
+    "grupo": "almidon",
+    "subgrupo": "pseudocereal",
+    "porcion_default": 0.5,
+    "unidad": "taza",
+    "notas": ["cocida", "proteína completa"]
+  },
+  {
+    "id": "papa",
+    "nombre": "Papa",
+    "grupo": "almidon",
+    "subgrupo": "tuberculo",
+    "porcion_default": 1,
+    "unidad": "unidad",
+    "notas": ["mediana"]
+  },
+  {
+    "id": "batata",
+    "nombre": "Batata (camote)",
+    "grupo": "almidon",
+    "subgrupo": "tuberculo",
+    "porcion_default": 1,
+    "unidad": "unidad",
+    "notas": ["mediana", "rica en betacarotenos"]
+  },
+  {
+    "id": "avena",
+    "nombre": "Avena",
+    "grupo": "almidon",
+    "subgrupo": "cereal",
+    "porcion_default": 0.5,
+    "unidad": "taza",
+    "notas": ["en hojuelas"]
+  },
+  {
+    "id": "pan_integral",
+    "nombre": "Pan integral",
+    "grupo": "almidon",
+    "subgrupo": "pan",
+    "porcion_default": 2,
+    "unidad": "rebanada",
+    "notas": []
+  },
+  {
+    "id": "yogur_natural",
+    "nombre": "Yogur natural",
+    "grupo": "lacteo",
+    "subgrupo": "yogur",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": ["sin azúcar añadida", "preferir griego"]
+  },
+  {
+    "id": "leche",
+    "nombre": "Leche",
+    "grupo": "lacteo",
+    "subgrupo": "leche",
+    "porcion_default": 1,
+    "unidad": "taza",
+    "notas": ["descremada o entera"]
+  },
+  {
+    "id": "aceite_oliva",
+    "nombre": "Aceite de oliva",
+    "grupo": "grasa_saludable",
+    "subgrupo": "aceite",
+    "porcion_default": 1,
+    "unidad": "cucharada",
+    "notas": ["extra virgen"]
+  },
+  {
+    "id": "aguacate",
+    "nombre": "Aguacate",
+    "grupo": "grasa_saludable",
+    "subgrupo": "fruto",
+    "porcion_default": 0.5,
+    "unidad": "unidad",
+    "notas": ["rico en grasas monoinsaturadas"]
+  },
+  {
+    "id": "nueces",
+    "nombre": "Nueces",
+    "grupo": "grasa_saludable",
+    "subgrupo": "fruto_seco",
+    "porcion_default": 1,
+    "unidad": "puñado",
+    "notas": []
+  },
+  {
+    "id": "lentejas",
+    "nombre": "Lentejas",
+    "grupo": "proteina_vegetal",
+    "subgrupo": "legumbre",
+    "porcion_default": 0.5,
+    "unidad": "taza",
+    "notas": ["cocidas"]
+  },
+  {
+    "id": "garbanzos",
+    "nombre": "Garbanzos",
+    "grupo": "proteina_vegetal",
+    "subgrupo": "legumbre",
+    "porcion_default": 0.5,
+    "unidad": "taza",
+    "notas": ["cocidos o en lata"]
+  },
+  {
+    "id": "frijoles",
+    "nombre": "Frijoles negros",
+    "grupo": "proteina_vegetal",
+    "subgrupo": "legumbre",
+    "porcion_default": 0.5,
+    "unidad": "taza",
+    "notas": ["cocidos"]
+  },
+  {
+    "id": "tofu",
+    "nombre": "Tofu",
+    "grupo": "proteina_vegetal",
+    "subgrupo": "soya",
+    "porcion_default": 1,
+    "unidad": "porcion_mano",
+    "notas": ["firme"]
+  }
+]
